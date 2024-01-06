@@ -1,6 +1,6 @@
 1. npm install socket.io
 2. npm install http
-3. update server.js
+3. update server.js 
     - requre('http').createServer(app);
     - require('socket.io)(http)
     - app.listen => http.listen

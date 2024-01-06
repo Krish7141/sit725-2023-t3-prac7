@@ -19,7 +19,8 @@ io.on('connection',(socket)=>{
     });
 
     setInterval(()=>{
-        socket.emit('number', parseInt(Math.random()*10));
+        socket.emit('number', parseInt(Math.random() * 10));
+        console.log('user currently using the site....');
     }, 1000)
 });
 
